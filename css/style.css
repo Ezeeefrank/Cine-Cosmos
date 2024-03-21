@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.corousel .carousel-inner .carousel-item {
+  width: 100%;
+  max-height: 800px;
+}
+
+.h1Carousel {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #dbedf3;
+  text-shadow: 2px 2px 3px black;
+}
+
+.carousel-caption {
+  top: 500px;
+  position: absolute;
+  text-align: center;
+}
+.carousel-caption p {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #dbedf3;
+  text-shadow: 1px 1px 2px black;
+}
+
+.horarios {
+  font-size: 20px;
+}
+.horarios span {
+  color: #f37066;
+}
+
+header {
+  width: 100%;
+}
+header img {
+  margin: 10px;
+  border-radius: 50%;
+}
+header a {
+  text-decoration: none;
+  color: #dbedf3;
+}
+header .nav-item {
+  padding: 20px;
+}
+header .nav-link {
+  color: #dbedf3;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.corousel {
+  .carousel-inner {
+    .carousel-item {
+      width: 100%;
+      max-height: 800px;
+    }
+  }
+}
+
+.h1Carousel {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #dbedf3;
+  text-shadow: 2px 2px 3px black;
+}
+
+.carousel-caption {
+  top: 500px;
+  position: absolute;
+  text-align: center;
+
+  p {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #dbedf3;
+    text-shadow: 1px 1px 2px black;
+  }
+}
+.horarios {
+  font-size: 20px;
+
+  span {
+    color: #f37066;
+  }
+}
