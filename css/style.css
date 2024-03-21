@@ -59,4 +59,48 @@ header .nav-link {
   color: #dbedf3;
 }
 
+.peliculas {
+  display: block;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.titulo-seccion {
+  margin: 2%;
+  color: #dbedf3;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.col .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbedf3 0, 0, 0, 0.125;
+  border-radius: 0.25rem;
+}
+.col .card .card-img-top {
+  object-fit: cover;
+  width: 100%;
+}
+.col .card img {
+  vertical-align: middle;
+  border-style: none;
+}
+.col .card .card-body {
+  padding: 10px 20px;
+}
+.col .card .card-title {
+  color: #dbedf3;
+}
+.col .card .card-footer a {
+  justify-content: center;
+  color: #f37066;
+  margin-left: 93px;
+  text-decoration: none;
+}
+.col .card .card-footer a :hover {
+  color: #dbedf3;
+}
+
 /*# sourceMappingURL=style.css.map */

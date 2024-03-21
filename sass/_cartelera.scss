@@ -1,0 +1,51 @@
+.peliculas {
+  display: block;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.titulo-seccion {
+  margin: 2%;
+  color: #dbedf3;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.col {
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbedf3 (0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    .card-img-top {
+      object-fit: cover;
+      width: 100%;
+    }
+    img {
+      vertical-align: middle;
+      border-style: none;
+    }
+
+    .card-body {
+      padding: 10px 20px;
+    }
+
+    .card-title {
+      color: #dbedf3;
+    }
+
+    .card-footer {
+      a {
+        justify-content: center;
+        color: #f37066;
+        margin-left: 93px;
+        text-decoration: none;
+
+        :hover {
+          color: #dbedf3;
+        }
+      }
+    }
+  }
+}
