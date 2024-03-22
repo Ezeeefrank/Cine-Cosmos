@@ -103,4 +103,36 @@ header .nav-link {
   color: #dbedf3;
 }
 
+.lightText {
+  color: #747678;
+}
+
+.primerfooter {
+  display: block;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.container {
+  width: 100%;
+}
+
+.segundoFooter {
+  margin: 7%;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.segundoFooter .redes {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 8px;
+}
+.segundoFooter .redes a {
+  padding: 10px;
+}
+.segundoFooter .redes i {
+  color: #dbedf3;
+}
+
 /*# sourceMappingURL=style.css.map */
