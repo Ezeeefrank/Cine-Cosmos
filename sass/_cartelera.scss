@@ -6,7 +6,7 @@
 
 .titulo-seccion {
   margin: 2%;
-  color: #dbedf3;
+  color: $color-primary;
   margin-left: 10px;
   margin-right: 5px;
 }
@@ -16,7 +16,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    border: 1px solid #dbedf3 (0, 0, 0, 0.125);
+    border: 1px solid $color-primary (0, 0, 0, 0.125);
     border-radius: 0.25rem;
     .card-img-top {
       object-fit: cover;
@@ -32,7 +32,7 @@
     }
 
     .card-title {
-      color: #dbedf3;
+      color: $color-primary;
     }
 
     .card-footer {
