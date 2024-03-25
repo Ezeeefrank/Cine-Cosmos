@@ -63,6 +63,8 @@ header .nav-link {
   display: block;
   margin-left: 250px;
   margin-right: 250px;
+  margin-top: 100px;
+
 }
 
 .titulo-seccion {
@@ -111,6 +113,8 @@ header .nav-link {
   display: block;
   margin-left: 250px;
   margin-right: 250px;
+  margin-top: 100px;
+
 }
 
 .container {
@@ -118,10 +122,12 @@ header .nav-link {
 }
 
 .segundoFooter {
-  margin: 7%;
+  margin: 5%;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -20px;
+  margin-left: -20px;
+  margin-top: 100px;
+
 }
 .segundoFooter .redes {
   display: inline-block;
@@ -134,5 +140,17 @@ header .nav-link {
 .segundoFooter .redes i {
   color: #dbedf3;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*# sourceMappingURL=style.css.map */
