@@ -65,10 +65,10 @@ header a {
   text-decoration: none;
   color: #dbedf3;
 }
-header .collapse .nav-item {
+header .nav-item {
   padding: 20px;
 }
-header .collapse .nav-item .a {
+header .nav-item .nav-link {
   color: #dbedf3;
 }
 
@@ -154,8 +154,8 @@ header .collapse .nav-item .a {
 }
 
 .segundoFooter {
-  margin-right: 60px;
-  margin-left: 50px;
+  margin-right: 50px;
+  margin-left: 70px;
   justify-content: center;
   align-items: center;
 }
