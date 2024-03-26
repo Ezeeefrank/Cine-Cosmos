@@ -44,7 +44,7 @@
         text-decoration: none;
         text-align: center;
 
-        :hover {
+        &:hover {
           color: $color-primary;
         }
       }

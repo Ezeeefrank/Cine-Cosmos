@@ -71,6 +71,9 @@ header .nav-item {
 header .nav-item .nav-link {
   color: #dbedf3;
 }
+header .nav-item .nav-link:hover {
+  color: #f37066;
+}
 
 .wrapper-seccion {
   display: block;
@@ -116,7 +119,7 @@ header .nav-item .nav-link {
   text-decoration: none;
   text-align: center;
 }
-.col .card .card-footer a :hover {
+.col .card .card-footer a:hover {
   color: #dbedf3;
 }
 .col .card .card-footer p {
@@ -149,50 +152,34 @@ header .nav-item .nav-link {
   color: #dbedf3;
 }
 
-.container {
-  width: 100%;
-}
-
 .segundoFooter {
-  margin-right: 50px;
-  margin-left: 70px;
-  justify-content: center;
-  align-items: center;
-}
-.segundoFooter .container-footer {
-  width: 100%;
-  margin: 5%;
-  flex-wrap: wrap;
-}
-.segundoFooter .container-footer .justify-content-start {
-  justify-content: flex-start;
-}
-.segundoFooter .container-footer .justify-content-start .redes {
-  display: inline-block;
-  vertical-align: baseline;
-  margin-left: 8px;
-  margin: 10px;
-}
-.segundoFooter .container-footer .justify-content-start .redes a {
-  padding: 10px;
-}
-.segundoFooter .container-footer .justify-content-start .redes i {
-  color: #dbedf3;
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-.container-historia {
-  width: 100%;
+  background-color: #010101;
+  color: #999697;
+  padding-top: 20px;
 }
 
 .seccion-historia {
-  margin: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 50px;
+}
+.seccion-historia .container-historia {
+  width: 100%;
+}
+.seccion-historia .container-historia h1 {
+  color: #dbedf3;
+  font-weight: bolder;
+  text-align: left;
+}
+.seccion-historia .container-historia .historia-texto {
+  margin-left: 10px;
+  margin-right: 100px;
+  text-align: left;
+}
+.seccion-historia .container-historia .historia-texto a {
+  color: #f37066;
+  text-decoration: none;
+}
+.seccion-historia .container-historia .historia-texto a:hover {
+  color: #dbedf3;
 }
 
 .img-portada {

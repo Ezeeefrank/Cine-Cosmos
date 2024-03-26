@@ -1,11 +1,28 @@
-.container-historia {
-  width: 100%;
-}
-
 .seccion-historia {
-  margin: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 50px;
+  .container-historia {
+    width: 100%;
+    h1 {
+      color: $color-primary;
+      font-weight: bolder;
+      text-align: left;
+    }
+
+    .historia-texto {
+      margin-left: 10px;
+      margin-right: 100px;
+      text-align: left;
+
+      a {
+        color: $color-secundary;
+        text-decoration: none;
+
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
 }
 
 .img-portada {
