@@ -1,0 +1,33 @@
+.container-historia {
+  width: 100%;
+}
+
+.seccion-historia {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.img-portada {
+  height: 850px;
+  overflow: hidden;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.container-historia {
+  span {
+    color: color-secundary;
+  }
+  a {
+    color: color-secundary;
+
+    :hover {
+        color: color-primary;
+      }
+  }
+
+
+}

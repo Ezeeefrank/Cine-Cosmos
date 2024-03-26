@@ -41,20 +41,19 @@ body {
   color: #f37066;
 }
 
-.seccion-historia {
-  margin: 100px;
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .container {
+    max-width: 720px;
+  }
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col-sm-5 {
+    flex: 0 0 41%;
+    max-width: 41%;
+  }
 }
-
-.img-portada {
-  height: 850px;
-  overflow: hidden;
-}
-
-img {
-  vertical-align: middle;
-  border-style: none;
-}
-
 header {
   width: 100%;
 }
@@ -110,12 +109,12 @@ header .nav-link {
 }
 .col .card .card-footer a {
   justify-content: center;
-  color: #f37066;
+  color: color-secundary;
   margin-left: 93px;
   text-decoration: none;
 }
 .col .card .card-footer a :hover {
-  color: #dbedf3;
+  color: color-primary;
 }
 
 .lightText {
@@ -152,4 +151,33 @@ header .nav-link {
   color: #dbedf3;
 }
 
-/*# sourceMappingURL=style.css.map */
+.container-historia {
+  width: 100%;
+}
+
+.seccion-historia {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.img-portada {
+  height: 850px;
+  overflow: hidden;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.container-historia span {
+  color: color-secundary;
+}
+.container-historia a {
+  color: color-secundary;
+}
+.container-historia a :hover {
+  color: color-primary;
+}
+
+/*# sourceMappingURL=styles.css.map */

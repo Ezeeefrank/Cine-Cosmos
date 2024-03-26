@@ -39,12 +39,12 @@
     .card-footer {
       a {
         justify-content: center;
-        color: #f37066;
+        color: color-secundary;        ;
         margin-left: 93px;
         text-decoration: none;
 
         :hover {
-          color: #dbedf3;
+          color: color-primary;
         }
       }
     }
