@@ -72,10 +72,9 @@ header .nav-link {
   color: #dbedf3;
 }
 
-.peliculas {
+.wrapper-seccion {
   display: block;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin: 50px;
   margin-top: 100px;
 }
 
@@ -114,7 +113,7 @@ header .nav-link {
   text-decoration: none;
 }
 .col .card .card-footer a :hover {
-  color: color-primary;
+  color: #dbedf3;
 }
 
 .lightText {
@@ -126,6 +125,10 @@ header .nav-link {
   margin-left: 250px;
   margin-right: 250px;
   margin-top: 100px;
+}
+
+.map-responsive iframe {
+  overflow: hidden;
 }
 
 .container {
@@ -156,13 +159,20 @@ header .nav-link {
 }
 
 .seccion-historia {
+  margin: 60px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 .img-portada {
-  height: 850px;
   overflow: hidden;
+  height: 300px;
+}
+
+.img-portada img {
+  vertical-align: middle;
+  border-style: none;
+  height: 350px;
 }
 
 img {
@@ -171,13 +181,13 @@ img {
 }
 
 .container-historia span {
-  color: color-secundary;
+  color: #f37066;
 }
 .container-historia a {
-  color: color-secundary;
+  color: #f37066;
 }
 .container-historia a :hover {
-  color: color-primary;
+  color: #dbedf3;
 }
 
 /*# sourceMappingURL=styles.css.map */
