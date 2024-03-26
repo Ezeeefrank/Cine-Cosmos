@@ -76,6 +76,8 @@ header .nav-link {
   display: block;
   margin: 50px;
   margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .titulo-seccion {
@@ -107,12 +109,17 @@ header .nav-link {
   color: #dbedf3;
 }
 .col .card .card-footer a {
-  justify-content: center;
-  color: color-secundary;
-  margin-left: 93px;
+  color: #f37066;
   text-decoration: none;
 }
 .col .card .card-footer a :hover {
+  color: #dbedf3;
+}
+.col .card .card-footer p {
+  justify-content: center;
+  text-align: center;
+}
+.col .card .card-footer p span {
   color: #dbedf3;
 }
 
@@ -159,7 +166,7 @@ header .nav-link {
 }
 
 .seccion-historia {
-  margin: 60px;
+  margin: 20px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -172,7 +179,6 @@ header .nav-link {
 .img-portada img {
   vertical-align: middle;
   border-style: none;
-  height: 350px;
 }
 
 img {
