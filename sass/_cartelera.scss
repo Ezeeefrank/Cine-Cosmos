@@ -38,18 +38,17 @@
     }
 
     .card-footer {
-   
-
+      text-align: center;
       a {
         color: $color-secundary;
         text-decoration: none;
+        text-align: center;
 
         :hover {
           color: $color-primary;
         }
       }
       p {
-        justify-content: center;
         text-align: center;
         span {
           color: $color-primary;

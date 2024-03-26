@@ -65,10 +65,10 @@ header a {
   text-decoration: none;
   color: #dbedf3;
 }
-header .collapse .nav-item {
+header .nav-item {
   padding: 20px;
 }
-header .collapse .nav-item .a {
+header .nav-item .nav-link {
   color: #dbedf3;
 }
 
@@ -220,4 +220,4 @@ img {
   color: #dbedf3;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.cs.map */
