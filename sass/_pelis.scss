@@ -15,7 +15,6 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-
   .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -29,7 +28,6 @@
         max-width: 100%;
         flex-basis: 0;
         flex-grow: 1;
-
 
         .peliculatitulo {
           color: $color-primary;
@@ -63,7 +61,7 @@
 
           .peliculainfotexto {
             font-size: 15px;
-            width: 428px;
+            width: 450px;
             line-height: 1.7;
             p {
               margin-top: 0;
@@ -72,11 +70,9 @@
           }
         }
 
-        .col-sm-4 {
-          max-width: 100%;
+        .col-sm-5 {
           flex-basis: 0;
           flex-grow: 1;
-    
         }
       }
     }

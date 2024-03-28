@@ -358,15 +358,14 @@ header .nav-item .nav-link:hover {
 }
 .sectionpelicula .container .justify-content-center .col-sm-3 .descripciontexto .peliculainfotexto {
   font-size: 15px;
-  width: 428px;
+  width: 450px;
   line-height: 1.7;
 }
 .sectionpelicula .container .justify-content-center .col-sm-3 .descripciontexto .peliculainfotexto p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-.sectionpelicula .container .justify-content-center .col-sm-3 .col-sm-4 {
-  max-width: 100%;
+.sectionpelicula .container .justify-content-center .col-sm-3 .col-sm-5 {
   flex-basis: 0;
   flex-grow: 1;
 }
