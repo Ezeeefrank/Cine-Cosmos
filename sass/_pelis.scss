@@ -1,0 +1,84 @@
+.main {
+  display: block;
+}
+
+.trailer {
+  height: 600px;
+}
+
+.section {
+  display: block;
+}
+
+.sectionpelicula {
+  height: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    .justify-content-center {
+      justify-content: center;
+
+      .col-sm-3 {
+        max-width: 100%;
+        flex-basis: 0;
+        flex-grow: 1;
+
+
+        .peliculatitulo {
+          color: $color-primary;
+          font-family: $font-primary;
+        }
+
+        .peliculatexto {
+          color: $color-secundary;
+          font-family: $font-secundary;
+        }
+        .descripciontexto {
+          float: left;
+          clear: none;
+          margin: 0px;
+          border: 0px;
+
+          .lightText {
+            font-size: 17px;
+            line-height: 1.7;
+            width: 428px;
+            p {
+              margin-top: 0;
+              margin-bottom: 1rem;
+            }
+          }
+          .peliculainfo {
+            float: left;
+            margin: 0px;
+            border: 0px;
+          }
+
+          .peliculainfotexto {
+            font-size: 15px;
+            width: 428px;
+            line-height: 1.7;
+            p {
+              margin-top: 0;
+              margin-bottom: 1rem;
+            }
+          }
+        }
+
+        .col-sm-4 {
+          max-width: 100%;
+          flex-basis: 0;
+          flex-grow: 1;
+    
+        }
+      }
+    }
+  }
+}

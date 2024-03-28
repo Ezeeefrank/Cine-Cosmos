@@ -23,6 +23,7 @@ body {
   line-height: 1.2;
   color: #dbedf3;
   text-shadow: 2px 2px 3px black;
+  font-family: $font-primary;
 }
 
 .carousel-caption {
@@ -36,6 +37,7 @@ body {
     line-height: 1.2;
     color: #dbedf3;
     text-shadow: 1px 1px 2px black;
+    font-family: $font-secundary;
   }
 }
 .horarios {
@@ -46,9 +48,7 @@ body {
   }
 }
 
-
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
-
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
   .container {
     max-width: 720px;
   }
@@ -62,5 +62,4 @@ body {
     flex: 0 0 41%;
     max-width: 41%;
   }
-
 }

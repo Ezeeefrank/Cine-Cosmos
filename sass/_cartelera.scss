@@ -4,6 +4,7 @@
   margin-top: 100px;
   padding-left: 60px;
   padding-right: 60px;
+
 }
 
 .titulo-seccion {
@@ -11,6 +12,10 @@
   color: $color-primary;
   margin-left: 10px;
   margin-right: 5px;
+
+  h2{
+    font-family: $font-primary;
+  }
 }
 
 .col {
@@ -20,6 +25,12 @@
     flex-direction: column;
     border: 1px solid $color-primary (0, 0, 0, 0.125);
     border-radius: 0.25rem;
+
+    .card-text{
+      font-family: $font-secundary;
+    }
+
+
     .card-img-top {
       object-fit: cover;
       width: 100%;
@@ -35,6 +46,7 @@
 
     .card-title {
       color: $color-primary;
+      font-family: $font-primary;
     }
 
     .card-footer {
